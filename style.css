@@ -1,10 +1,14 @@
+/* Initial Reset */
 * {
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
+
+
+/* Header */
 h1.hero {
-    font-size: 50px;
+    font-size: xx-large;
     text-align: center;
     color: black;
     background-color: seagreen;
@@ -14,8 +18,44 @@ h1.hero {
 
 nav li {
     text-align: center;
-    padding: 10px;
-    border: 2px solid orange;
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
     display: inline-block;
     width: 200px;
+    margin: 0 auto;
+    font-weight: bold;
+    color: black;
+    background: darkseagreen;
+}
+
+/* Content */
+h2 {
+    text-align: center;
+    font-size: x-large;
+}
+p {
+    width: 50%;
+    min-width: 300px;
+    
+
+}
+
+/* Tables */
+thead{
+    background-color: darkslategrey;
+    font-weight: bolder;
+    text-align: center;
+}
+table {
+    background-color: grey;
+    text-align: left;
+    line-height: 2;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 10px 20px;
 }
