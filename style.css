@@ -1,0 +1,13 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1.hero {
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    background-color: seagreen;
+    height: 100px;
+    margin: 0 auto;
+}
