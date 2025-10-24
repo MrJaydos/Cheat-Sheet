@@ -8,6 +8,14 @@ h1.hero {
     text-align: center;
     color: black;
     background-color: seagreen;
-    height: 100px;
     margin: 0 auto;
+    padding: 20px;
+}
+
+nav li {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid orange;
+    display: inline-block;
+    width: 200px;
 }
