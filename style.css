@@ -104,3 +104,39 @@ button:active {
 .breadcrumb a:hover {
 
 }
+
+
+/* Flex Justify */
+#flexstart {
+justify-content: flex-start;
+}
+
+#flexend {
+justify-content: flex-end;
+}
+
+#center {
+justify-content: center;
+}
+
+#spacearound {
+justify-content: space-around;
+}
+
+#spacebetween {
+justify-content: space-between;
+}
+
+/* Flex Shorthand */
+
+.small {
+  flex-grow: 1;
+  flex-shrink: 2;
+  flex-basis: 100px;
+}
+
+/* can be */
+
+.small {
+    flex: 1 2 100px;
+}
